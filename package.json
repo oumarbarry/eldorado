@@ -1,0 +1,47 @@
+{
+  "name": "eldorado-ui",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.240",
+    "@nuxt/fonts": "^0.7.2",
+    "@nuxt/icon": "^1.4.8",
+    "@nuxt/image": "^1.7.0",
+    "@vueuse/components": "^11.0.1",
+    "animejs": "^3.2.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
+    "lucide-vue-next": "^0.435.0",
+    "nuxt": "^3.13.0",
+    "nuxt-lucide-icons": "^1.0.5",
+    "radix-vue": "^1.9.4",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.5.2",
+    "typed.js": "^2.1.0",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.27.1",
+    "@nuxt/eslint": "^0.5.2",
+    "@nuxtjs/color-mode": "^3.4.4",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/animejs": "^3.1.12",
+    "@types/node": "^22.5.0",
+    "@vueuse/nuxt": "^11.0.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.5.4"
+  }
+}
